@@ -1,0 +1,344 @@
+@font-face {
+    font-family: discord-1;
+    src: url(./discord-font.woff2);
+}
+@font-face {
+    font-family: discord-2;
+    src: url(./discord-font-2.woff2);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+}
+.bg{
+    background-color:#F6F6F6;
+}
+.header{
+    width: 100%;
+    height: 626px;
+    background: #404eed;
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    display: flex;
+
+}
+.vector-1{
+    position: absolute;
+    left: -340px ;
+}
+.vector-2{
+    position: absolute;
+    bottom: 0;
+    left: -80px;
+}
+.vector-3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.navbar{
+    width: 1180px;
+    height: 80px;
+    /* background-color: #0010a0; */
+    position:absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin: 0 364px;
+    z-index: 2;
+    
+}
+.discord-logo{
+    color: #fff;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-evenly; */
+    margin: 28px 180px
+}
+.links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.nav-button{
+    position: absolute;
+    right:0;
+}
+.login-button{
+    width: 65px;
+    height: 38px;
+    border-radius:45px;
+    border: 0;
+    font-size: 13px;
+}
+.login-button:hover{
+    color: #404eed;
+}
+/* -------------------------------------header contents-------------------------- */
+.landing-page{
+    width: 1260px;
+    height: 626px;
+    /* background: grey; */
+    position: absolute;
+    margin: 0 325px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+     */
+}
+.header-content{
+    width: 780px;
+    height: 270px;
+    margin-top: 200px;  
+    margin-left: 240px;
+}
+
+.main-text{
+    text-align: center;
+    margin-bottom: 40px; 
+    color: #fff;
+    font-size: 40px;
+}
+
+.paragraph{
+    text-align: center;
+    color: #fff;
+    line-height: 33px;
+}
+.download-open-buttons{
+    margin-top: 32px;
+    /* margin-left: 75px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+.button-1{
+    padding: 16px 32px;
+    border-radius: 45px;    
+    border: 0;
+    margin-right: 18px;
+    /* background-color: aqua; */
+    
+}
+.button-1:hover{
+    color: #404eed;
+}
+.button-2{
+    padding: 16px 32px;
+    border-radius: 45px;    
+    border: 0;
+    background-color: #23272a;
+    color: #fff;
+    
+}
+/* ------------------features------------------------------- */
+.features{
+    width: 1260px;
+    height: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: silver; */
+    display: flex;
+    justify-content: space-around;
+}
+.features .image-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-1{
+    width: 678px;
+}
+.features .text-part{
+    width: 400px;
+    display: flex; 
+    flex-direction:column; 
+    justify-content: center;
+
+}
+.heading{
+    font-size: 20px;
+    font-weight:900;
+}
+.para{
+    margin-top: 30px;
+    font-weight: 300;
+    line-height: 32px;
+}
+/* ------feature-4-------- */
+.feature-4{
+    width: 1260px;
+    /* height: 1058px; */
+    /* background: #F6F6F6; */
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.head-text{
+    padding-top: 110px;
+    text-align: center;
+
+}
+.head-text h1{
+    font-size: 45px;
+    
+}
+.head-text p{
+    padding-top: 24px;
+}
+.image-part4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-style{
+    width: 1180px;
+    height: 715px;
+    
+}
+.text-button-last{
+    text-align: center;
+    
+    /* z-index: 0; */
+}
+.stars{
+    /* z-index: 2; */
+}
+.button-last{
+    margin-top: 35px;
+    margin-bottom:125px;
+    padding: 16px 32px;
+    border-radius: 45px;    
+    border: 0;
+    background:#404eed;
+    color: #fff;
+}
+/* -------------------footer-------------------- */
+.bg-footer{
+    width: 100%;
+    background:#23272A;
+}
+.footer{
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+   
+    
+}
+.footer-content{
+    /* background: #3913c2; */
+    display: flex;
+    width: 1260px;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: black;
+}
+.footer-section-1{
+    /* width: 280px; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footerico{
+    display: flex;
+    gap: 5px;
+}
+.footer-content h1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #404eed;
+    padding-bottom: 16px;
+}
+
+.footer-content li{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+select{
+    border: none;
+    background:#23272A;
+    color: #fff;
+}
+
+.footer-content svg{
+    color: #fff;
+}
+
+.footerico{
+    gap: 18px;
+}
+
+.footer-content img{
+    width: 24px;
+}
+
+.footer2{
+    width: 100%;
+    height: 71px;
+    background:#23272A;
+    display: flex;
+    justify-content: center;
+    gap: 70%;
+    align-items: center;
+    align-content: center;
+}
+
+hr{
+    border-top: 2px solid #2400a7;
+    width: 1180px;
+    height: 0.8px;
+    margin-left: 30px;
+
+}
+.lastclass{
+    display: flex;
+    justify-content: center;
+}
+.footer2 img{
+    height: 28px;
+    /* padding-right: 800px; */
+}
+.footer2 button{
+    background-color: #404eed;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 11px 21px;
+}
+.browser{
+    color: #fff;
+    background-color: black;
+}
+.sign-up-button{
+    border-radius: 45px;
+}
